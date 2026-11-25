@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:orientation="vertical" android:padding="20dp">
+    <TextView android:text="HerTV" android:textSize="28sp" android:textStyle="bold"
+        android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+    <TextView android:text="v1.0" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+    <Button android:id="@+id/btnWifi" android:text="Wi-Fi" android:layout_marginTop="24dp"
+        android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    <Button android:id="@+id/btnBt" android:text="Bluetooth"
+        android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    <Button android:id="@+id/btnBypass" android:text="Обход блокировок (VPN / Private DNS)"
+        android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    <EditText android:id="@+id/etUrl" android:hint="https://… ссылка на файл" android:inputType="textUri"
+        android:layout_marginTop="16dp" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    <Button android:id="@+id/btnDownload" android:text="Скачать"
+        android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    <Button android:id="@+id/btnDownloads" android:text="Мои скачивания"
+        android:layout_width="match_parent" android:layout_height="wrap_content"/>
+</LinearLayout>
